@@ -1,16 +1,119 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight - IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
+        header {
+            background-color: #222;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 15px;
+            color: #ffcc00;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        summary {
+            background-color: #333;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        section {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        aside {
+            background-color: #555;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        footer {
+            background-color: #222;
+            padding: 15px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Header -->
+    <header>
+        The Dark Knight
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#actor" id="nav-actor">Actors</a>
+        <a href="#quote" id="nav-quote">Quotes</a>
+    </nav>
+
+    <!-- Summary Section -->
+    <summary>
+        "The Dark Knight" (2008), directed by Christopher Nolan, follows Batman as he faces his greatest challenge yet: The Joker. 
+        Chaos spreads throughout Gotham as Batman, Commissioner Gordon, and Harvey Dent try to stop the enigmatic villain.
+    </summary>
+
+    <!-- Actors Section -->
+    <section id="actor">
+        <h2>Actors</h2>
+        <p>Christian Bale as Bruce Wayne / Batman</p>
+        <p>Heath Ledger as Joker</p>
+        <p>Aaron Eckhart as Harvey Dent</p>
+        <p>Gary Oldman as Commissioner Gordon</p>
+    </section>
+
+    <!-- Quotes Section -->
+    <section id="quote">
+        <h2>Favorite Quote</h2>
+        <p>"You either die a hero, or you live long enough to see yourself become the villain." – Harvey Dent</p>
+    </section>
+
+    <!-- IMDb Rating and Release Date -->
+    <aside>
+        <strong>IMDb Rating:</strong> ⭐ 9.0/10 <br>
+        <strong>Release Date:</strong> July 18, 2008
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        Produced by: Christopher Nolan
+    </footer>
 
 </body>
-
 </html>
